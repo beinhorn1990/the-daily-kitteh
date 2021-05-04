@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 'Verdana', sans-serif;
 }
 
 html {
@@ -9,4 +9,81 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #e4f3f5;
+  color: #4a5f73;
 }
+
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
+header nav {
+  background-color: #55c5d9;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 90ch;
+  margin: 0 auto;
+}
+
+aside {
+  border: thin solid #55c5d9;
+  align-self: start;
+  margin: 0 1rem;
+}
+
+aside figure {
+  margin: 0;
+  padding: 0.25rem;
+}
+
+aside figcaption {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+article {
+  margin: 0 2rem;
+}
+
+footer {
+  padding: 0.5rem;
+  background-color: #d6e0e1;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  margin: 0.5rem;
+}
+
+header nav a:link,
+header nav a:visited {
+  color: white;
+}
+
+header nav a:focus,
+header nav a:hover {
+  color: pink;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a:focus,
+footer a:hover {
+  color: #55c5d9;
+}
+
